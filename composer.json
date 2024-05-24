@@ -1,0 +1,20 @@
+{
+    "name": "mf/composer",
+    "description": "test",
+    "type": "project",
+    "require": {
+        "psr/log": "^3.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mf\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MF"
+        }
+    ],
+    "minimum-stability": "RC"
+}
